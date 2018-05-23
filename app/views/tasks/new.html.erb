@@ -31,8 +31,15 @@
         </label>
       </div>
 
+    <div class='row field'>
+      <label>
+        <span>Deadline</span>
+        <%= f.date_field :deadline %>
+      </label>
+    </div>
+
       <div class='row'>
-        <button type="submit">Add it and Do it!</button>
+        <button type="button" class="btn btn-primary">Add it and Do it!</button>
       </div>
   <% end %>
 </div>
