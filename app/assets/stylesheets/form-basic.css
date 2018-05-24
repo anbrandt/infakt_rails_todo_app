@@ -11,13 +11,13 @@ html{
   background-color:  #ffffff;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
 
-  font: bold 14px sans-serif;
+  /*font: bold 14px sans-serif;*/
   text-align: center;
 }
 
 .basic .row{
-  text-align: left;
-  margin-bottom: 22px;
+  /*text-align: left;*/
+  /*margin-bottom: 22px;*/
 }
 
 .basic .title-row{
