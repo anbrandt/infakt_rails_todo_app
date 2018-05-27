@@ -32,7 +32,7 @@ gem 'turbolinks', '~> 5'
 group :development, :test do
   gem 'pry'
   gem 'rspec-rails', '~> 3.5'
-  gem 'factory_girl_rails'
+  gem 'factory_bot'
   gem 'shoulda-matchers', '~> 3.1'
   gem 'capybara'
 end
@@ -45,3 +45,4 @@ end
 group :test do
   gem 'rails-controller-testing'
 end
+

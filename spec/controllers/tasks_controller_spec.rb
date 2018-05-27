@@ -1,6 +1,6 @@
-# require 'rails-helper'
+require '/home/andrzej/dev/00_RUBY/infakt_workshops/task01/workshops_todo_list/spec/rails_helper.rb'
 
-RSpec.describe TasksController, :type => :controller  do
+RSpec.describe TasksController, type: :controller do
   describe('GET tasks/new') do
     it 'exposes form to create new task' do
       get :new
