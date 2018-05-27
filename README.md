@@ -2,9 +2,7 @@ Aplikacja stworzona jako zadanie rekrutacyjne do Warsztatów InFakt Ruby on Rail
 Autor: Andrzej Brandt (andrzej.brandt@gmail.com) 
 
 
-<img src="/home/andrzej/dev/00_RUBY/infakt_workshops/task01/workshops_todo_list/app/assets/images/WorkshopsTodo.png">
-
-
+<img src="app/assets/images/WorkshopsTodo.png">
 
 
 
