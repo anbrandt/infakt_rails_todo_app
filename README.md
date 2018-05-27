@@ -1,3 +1,15 @@
+Aplikacja stworzona jako zadanie rekrutacyjne do Warsztatów InFakt Ruby on Rails. 
+Autor: Andrzej Brandt (andrzej.brandt@gmail.com) 
+
+
+<img src="/home/andrzej/dev/00_RUBY/infakt_workshops/task01/workshops_todo_list/app/assets/images/WorkshopsTodo.png">
+
+
+
+
+
+
+
 # Hiper-prosta apka TODO-list
 
 ## Co tu jest grane?

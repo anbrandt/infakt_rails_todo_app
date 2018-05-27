@@ -1,5 +1,5 @@
 class TasksController < ApplicationController
-  before_action :set_task, only: [:destroy, :update]
+  before_action :set_task, only: [:destroy, :update, :edit, :show]
 
   def index
     @tasks = Task.all.sort_by &:deadline
@@ -26,10 +26,14 @@ class TasksController < ApplicationController
   def update
     if @task.update(task_params)
       flash[:notice] = "Task has been successfuly updated!"
-      redirect_to tasks_url, notice: 'Task successfully updated'
+      redirect_to task_path(@task), notice: 'Task successfully updated'
     else
       render 'edit'
     end
+  end
+
+  def show
+
   end
 
   def destroy
